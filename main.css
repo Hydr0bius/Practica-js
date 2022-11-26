@@ -195,3 +195,60 @@ button{
     }
 
 }
+@media (max-width: 414px){
+    .main{
+        margin-top: -32%;
+        width: 95%;
+        height: 70%;
+    }
+    .valor{
+        width: 40%;
+        height: 80%;
+        display: inline-block;
+        background: #032d29;
+        text-align: center;
+        align-items: center;
+        margin-left: 7%;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .info{
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 80%;
+        height: 20%;
+        box-shadow: 10px 10px 90px rgb(255, 255, 255) inset;
+    }
+    .busqueda{
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    input{
+        width: 90%;
+    }
+    button{
+        width: 60%;
+        height: 95%;
+        background: #032d29;
+        color: #c6bb47;
+        transition-duration: 0.3s;
+    }
+    button:hover{
+        background: #03756a;
+    }
+    .boton{
+        width: 17%;
+        height: 50%;
+        display: inline-block;
+        background: #31a7f1;
+        border-radius: 6px;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+    .boton:hover{
+        background: #178fda;
+        box-shadow: 3px 3px 3px black;
+        z-index: 100%;
+    }
+
+}
