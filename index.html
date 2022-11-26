@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchLatamX</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1> <br>
+    <div class="main">
+        <div class="izquierda">
+            <div class="info">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" alt="pokemon" id="pokeImg">
+            </div>
+            <div class="busqueda">
+                <input type="text" placeholder="Pokemon" id="pokeName" name="pokeName">
+                <button onclick="fetchPokemon()">Cambiar Imágen</button>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="display" id="abilities">
+            </div>
+            <div class="box__boton">
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+                <div class="boton"></div>
+            </div>
+            <div class="box__derecha">
+                <div class="boton__derecha"></div>
+                <div class="boton__derecha"></div>
+            </div>
+            <div class="box__izquierda">
+                <div class="boton__izquierda"></div>
+                <div class="boton__izquierda"></div>
+                <div class="esfera"></div>
+            </div>
+            <div class="valores">
+                <div class="valor">
+                    <p>Altura: 85M</p>
+                </div>
+                <div class="valor">
+                    <p>Peso: 38kg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
