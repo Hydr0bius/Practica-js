@@ -7,7 +7,7 @@ Práctica Js LauncherLatam
 
 **Los requisitos son los siguientes:**
 * Maquetación del sitio con HTML
-* Diseño con CSS para que parezca un pokedex la p+agina.
+* Diseño con CSS para que parezca un pokedex la página.
 * Tener un input de entrada
 * Mostrar en pantalla los siguientes datos del pokemón ingresado:
   * Nombre
@@ -28,7 +28,7 @@ body{
 }
 ```
 
-Una tecnica que se uso en esta practica fue hacer una esfera en la que la sombra quede adentro usando (inset) y que esta tenga una animación.
+Una tecnica que se uso en esta práctica fue hacer una esfera en la que la sombra quede adentro usando (inset) y que esta tenga una animación.
 
 ```CSS
 .esfera{
