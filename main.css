@@ -171,12 +171,13 @@ button{
         cursor: pointer;
         transition-duration: 0.3s;
     }
-@media (max-width: 1366px){
-        .main{
-        margin-top: -30%;
-    }
-
 }
+@media (max-width: 1366px){
+    .main{
+    margin-top: -10%;
+    }
+}
+
 @media (max-width: 870px){
     .valor{
         width: 40%;
@@ -248,5 +249,4 @@ button{
         cursor: pointer;
         transition-duration: 0.3s;
     }
-
 }
