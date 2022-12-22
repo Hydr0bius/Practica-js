@@ -1,9 +1,11 @@
-# Practica-js
+# Práctica-js
 Práctica Js LauncherLatam
 
     Práctica como parte de los temas vistos en el LauncherLatam. Se realizo una 
     Pokedex usando CSS & JS. De igual modo se trato de hacer responsive para
     mobile first.
+
+Link de la práctica [pokedex](https://hydr0bius.github.io/Practica-js/)
 
 **Los requisitos son los siguientes:**
 * Maquetación del sitio con HTML
